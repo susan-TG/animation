@@ -1,0 +1,29 @@
+.fondo {
+	background-image: url(../img/fondo-arbol.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 99%;
+	height: 640px;
+	position: absolute;
+	margin-left: 0;
+	padding-left: 0;
+}
+.santa {
+	background-image: url(../img/santa-01.png);
+	background-repeat: no-repeat;
+	width: 48%;
+	height:300px;
+	padding-top: 500px;
+	border: 2px solid red;
+	animation: santa-move 5.1s infinite 800ms step(1);
+}
+.reno {
+	background-image: url(../img/renos-02.png);
+	background-repeat: no-repeat;
+	
+}
+@keyframes santa-move {
+	0%{background-position: 0 0}
+	25% {background-position: 100 0}
+
+}
