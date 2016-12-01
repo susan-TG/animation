@@ -5,9 +5,7 @@
 	position: relative;
 	width: 100%;
 	height: 900px;
-	
 }
-
 
 .santa {
 	background-image: url(../img/santa.png);
@@ -26,11 +24,5 @@
 .santa:hover {
 	width: 100%;
 	background-image: url(../img/santa-2.png);
-	
-	
-
 }
 
-.reno {
-
-}
